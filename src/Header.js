@@ -70,8 +70,10 @@ const Navbar = () => {
     <div className="navbar-container">
       {/* <!-- Navbar btn --> */}
       <div className="navbar-button">
+	  <a> <i class="fa fa-map-marker" aria-hidden="true"></i> </a>
         <a href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-user navIcons" aria-hidden="true"></i></a>
       <a href="#"><i class="fa fa-shopping-cart navIcons" aria-hidden="true"></i></a>
+	  
       </div>
       {/* <!-- Navbar search --> */}
       <div className="navbar-search">
@@ -84,6 +86,8 @@ const Navbar = () => {
       <div className="navbar-category">
         <a href="javascript:;" className="category-button">
           <div className="category-btn">
+		  		  {/* <img className="img responsive imglogo" src="http://www.avantecperu.com/uploads/1/0/4/0/104022850/published/avaalrguitcordonelef55-compressor_1.png?1491785518"/> */}
+
             <i className="fa fa-chevron-circle-down"></i> Category
           </div>
         </a>
@@ -116,7 +120,6 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-	  
     </div>
   </nav>
 	)

@@ -15,7 +15,7 @@ import './css/app.css';
 const Productos = () => {
     return (
         <div>
-            <Header/>
+            {/* <Header/> */}
             <div className="kdetails">
                 <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
                     <div class="col-item">

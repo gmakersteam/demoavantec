@@ -36,6 +36,14 @@ header {
   z-index: 99999;
   width: 100%; }
 
+.navbar-button a {
+  padding: 10px;
+  text-decoration: none; }
+
+.navbar-button a i {
+  color: black;
+  font-size: 2em; }
+
 /* Clearfix
 ------------------------------------------- */
 .navbar:before,
