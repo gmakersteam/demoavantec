@@ -9,6 +9,7 @@ import {
     Redirect
 } from 'react-router-dom'
 import Header from './Header';
+import Productos from "./Productos";
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
                         {/* <br /></h1> */}
                 </div>
             </div>
+            <Productos/>
         </div>
     )
 }
