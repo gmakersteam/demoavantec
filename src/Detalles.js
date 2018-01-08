@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import Utils from './Utils.js';
 
-import {
-    BrowserRouter,
-    Route,
-    Switch,
-    NavLink,
-    Redirect
-} from 'react-router-dom';
+// import {
+//     BrowserRouter,
+//     Route,
+//     Switch,
+//     NavLink,
+//     Redirect
+// } from 'react-router-dom';
 import Header from './Header';
 // import "./Detalles.css";
 import './css/app.css';

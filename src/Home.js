@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './css/app.css';
 import Contactame from './contacto'
 // import {BrowserRouter, Route, Switch, NavLink, Redirect} from 'react-router-dom'

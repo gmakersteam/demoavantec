@@ -1,12 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './css/app.css';
-import {
-	BrowserRouter,
-	Route,
-	Switch,
-	NavLink,
-	Redirect
-} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 
 const Header = () => {
