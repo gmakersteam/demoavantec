@@ -1,54 +1,55 @@
-
+#Productos{
+  padding: 20px 20px 50px;
+}
 /* section de catalogo */
 #catalogo{
   font-family: 'Orbitron';
-  padding: 50px 0;
 }
 #catalogo img{
   width: 100%;
 }
-
-#catalogo .carousel-control { 
-  width: 4%; 
+#catalogo a{
+  text-decoration: none;
 }
-#catalogo .carousel-control.left,.carousel-control.right {
-  background-image:none;
-  color: red;
+#catalogo .carousel-indicators{
+  right: 50%;
+	top: auto;
+	bottom: -40px;
+	margin-right: -19px;
 }
-#catalogo .carousel-control.left{
-	margin-left: -5px;
+#catalogo .carousel-indicators li{
+  background-color: rgba(177, 167, 167, 0.185);
 }
-#catalogo .oferta{
-  background: red;
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  line-height: 31px;
-  font-weight: 300;
-  font-size: 14px;
-  border: 2px solid #FFF;
-  box-shadow: 0 0 0 2px red;
-  top: 5px;
-  right: 5px;
-  color: white;
-  text-align: center;
+#catalogo .carousel-indicators li.active{
+  background: #cecece;
 }
-#catalogo .reverso{
-	writing-mode: vertical-rl;
-	transform: rotate(180deg);
-	font-size: 190%;
+#catalogo .carousel-indicators li:hover{
+  background: #cecece;
 }
 #catalogo .row{
-  position: relative;
-  margin: 20px 0;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
-#catalogo .row .centro{
-	position: relative;
-  top: 80px;
+#catalogo .carousel{
+  width: 100%;
+}
+.producto h3 a{
+  color: gray;
+}
+.producto h3 a:hover{
+  color: gray;
+}
+.producto .precio{
+  font-size: 16px;
+  font-weight: 400;
+}
+.producto .oferta{
+  color: rgb(241, 41, 41);
 }
 
-#catalogo>.row>div{
-	height: 100%;
-	align-items: center;
-}/* fin del section catalogo*/
+.producto .old{
+  text-decoration: line-through;
+  color: rgb(194, 193, 193);
+  margin: 0;
+  font-size: 10px;
+}
