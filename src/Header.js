@@ -70,9 +70,9 @@ const Navbar = () => {
     <div className="navbar-container">
       {/* <!-- Navbar btn --> */}
       <div className="navbar-button">
-	  <a> <i class="fa fa-map-marker" aria-hidden="true"></i> </a>
-        <a href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-user navIcons" aria-hidden="true"></i></a>
-      <a href="#"><i class="fa fa-shopping-cart navIcons" aria-hidden="true"></i></a>
+	  <a> <i className="fa fa-map-marker" aria-hidden="true"></i> </a>
+        <a href="#" data-toggle="modal" data-target="#login-modal"><i className="fa fa-user navIcons" aria-hidden="true"></i></a>
+      <a href="#"><i className="fa fa-shopping-cart navIcons" aria-hidden="true"></i></a>
 	  
       </div>
       {/* <!-- Navbar search --> */}
