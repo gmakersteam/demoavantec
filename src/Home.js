@@ -1,14 +1,9 @@
 import React, { Component } from 'react';
-// import Utils from './Utils.js';
-
-import {
-    BrowserRouter,
-    Route,
-    Switch,
-    NavLink,
-    Redirect
-} from 'react-router-dom'
+import './css/app.css';
+import Contactame from './contacto'
+// import {BrowserRouter, Route, Switch, NavLink, Redirect} from 'react-router-dom'
 import Header from './Header';
+import Productos from "./Productos";
 
 const Home = () => {
     return (
@@ -20,6 +15,8 @@ const Home = () => {
                         {/* <br /></h1> */}
                 </div>
             </div>
+            <Productos/>
+            <Contactame />
         </div>
     )
 }

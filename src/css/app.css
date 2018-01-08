@@ -25,4 +25,173 @@
   height: 100vh;
   background-repeat: no-repeat; }
 
+.g-contacto {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  background: #18305c;
+  padding: 0% 5%;
+  padding-top: 1%;
+  text-align: left; }
+
+.g-h3-contacto {
+  color: #FFFFFF;
+  text-align: center; }
+
+.g-visitanos, .g-comunicate, .g-buscanos, .g-suscribete {
+  margin-top: 1%;
+  padding: 2%; }
+
+.g-facebook {
+  color: blue; }
+
+.g-youtube {
+  color: red; }
+
+.g-facebook, .g-youtube {
+  padding: 0% 2%; }
+
+.g-suscribete {
+  text-align: center; }
+
+.g-btn-suscribete, .g-input-suscribete {
+  width: 100%;
+  margin-bottom: 2%; }
+
+.fa-thumb-tack, .fa-user, .fa-search {
+  color: white; }
+
+.g-titulo-secciones {
+  color: #FFFFFF; }
+
+.fa-phone-square, .fa-envelope, .fa-skype, .g-direccion, .g-datos-comunicate {
+  color: #FFFFFF; }
+
+.g-datos-comunicate {
+  font-family: 'Raleway', sans-serif; }
+
+.kdetails {
+  margin-top: 15vh; }
+
+.col-item {
+  border: 1px solid #E1E1E1;
+  border-radius: 5px;
+  background: #FFF;
+  margin: 2vh 9vw; }
+
+.imagenes-detalle {
+  padding: 80px 20px; }
+
+.col-item {
+  border: 1px solid #E1E1E1;
+  border-radius: 5px;
+  background: #FFF;
+  margin: 10px 30px; }
+
+.col-item .photo img {
+  margin: 0 auto;
+  width: 100%; }
+
+.col-item .info {
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+  margin-top: 1px; }
+
+.col-item .price h5 {
+  line-height: 20px;
+  margin: 0; }
+
+.price-text-color {
+  color: #219FD1; }
+
+.col-item .info .rating {
+  color: #777; }
+
+.col-item .rating {
+  /*width: 50%;*/
+  font-size: 17px;
+  text-align: right;
+  line-height: 52px; }
+
+.col-item .separator {
+  border-top: 1px solid #E1E1E1; }
+
+.clear-left {
+  clear: left; }
+
+.col-item .separator p {
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  text-align: center; }
+
+.col-item .separator p i {
+  margin-right: 5px; }
+
+.col-item .btn-add {
+  width: 50%;
+  float: le; }
+
+.col-item .btn-add {
+  border-right: 1px solid #E1E1E1; }
+
+.col-item .btn-details {
+  width: 50%;
+  float: right;
+  padding-left: 10px; }
+
+.controls {
+  margin-top: 20px; }
+
+[data-slide="prev"] {
+  margin-right: 10px; }
+
+/*seccion pagos y precio*/
+.view-pagos {
+  text-align: center;
+  margin-bottom: 7vh; }
+
+.view-pagos span {
+  margin-left: 1vw;
+  margin-bottom: 1vh; }
+
+.k-buy {
+  width: 50%;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #0076fb;
+  color: #ffffff;
+  border: none;
+  padding: 1vh 2vw;
+  margin: 4vh 25%; }
+
+.navhome {
+  border: 0px solid transparent;
+  padding: 1.5%;
+  background: white; }
+
+.navhome .list {
+  font-weight: 600;
+  color: black !important; }
+
+.navhome:hover {
+  background-color: white; }
+
+.navhome:hover .list {
+  font-weight: 600;
+  color: #545357 !important; }
+
+.k-details {
+  /*padding: 1vh 6vw;*/ }
+
+.k-detalleproduct {
+  text-align: justify;
+  margin: 2vh 3vw; }
+
+.k-title {
+  margin: 1vh 2vw; }
+
+.k-precio {
+  text-align: center; }
+
 /*# sourceMappingURL=app.css.map */
