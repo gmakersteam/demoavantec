@@ -1,13 +1,14 @@
 import React from 'react';
 import './css/app.css';
 import {NavLink} from 'react-router-dom';
+// import { Navbar } from './C:/Users/Mariley/AppData/Local/Microsoft/TypeScript/2.6/node_modules/@types/react-bootstrap';
 
 
-const Header = () => {
+export const Header = () => {
 	return (
-		<div>
 			<header>
-				<div className="hero" >
+				<Navbar />
+				{/* <div className="hero" >
 					<div className="overlay">
 						<div className="hero-content d-flex">
 							<nav
@@ -26,7 +27,6 @@ const Header = () => {
 											<span className="icon-bar" />
 										</button>
                                         <img className="img responsive imglogo" src="http://www.avantecperu.com/uploads/1/0/4/0/104022850/published/avaalrguitcordonelef55-compressor_1.png?1491785518"/>
-										{/* <NavLink to={'/Home'}><img className="img responsive imglogo" src={estherlogo} /></NavLink> */}
 									</div>
 									<div
 										className="navbar-collapse collapse"
@@ -59,10 +59,65 @@ const Header = () => {
 							</nav>
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</header>
-		</div>
     )
 }
 
-export default Header;
+const Navbar = () => {
+	return (
+  <nav className="navbar">
+    <div className="navbar-container">
+      {/* <!-- Navbar btn --> */}
+      <div className="navbar-button">
+        <a href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-user navIcons" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-shopping-cart navIcons" aria-hidden="true"></i></a>
+      </div>
+      {/* <!-- Navbar search --> */}
+      <div className="navbar-search">
+        <form className="search-form" method="get" action="/search">
+          <input type="text" name="q" placeholder="Search"/>
+          <input type="submit" value="Search"/>
+        </form>
+      </div>
+      {/* <!-- Navbar category --> */}
+      <div className="navbar-category">
+        <a href="javascript:;" className="category-button">
+          <div className="category-btn">
+            <i className="fa fa-chevron-circle-down"></i> Category
+          </div>
+        </a>
+        <ul className="category-menu">
+          <li><a href="#">Category 1</a></li>
+          <li><a href="#">Category 2</a></li>
+          <li className="category-dropdown">
+            <a href="#">Category 3</a>
+            <ul className="category-submenu">
+              <li className="submenu-header">Header</li>
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li className="submenu-divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Category 4</a></li>
+          <li><a href="#">Category 5</a></li>
+          <li className="category-dropdown">
+            <a href="#">Category 6 long title long title long title</a>
+            <ul className="category-submenu">
+              <li className="submenu-header">Header</li>
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li className="submenu-divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+	  
+    </div>
+  </nav>
+	)
+}

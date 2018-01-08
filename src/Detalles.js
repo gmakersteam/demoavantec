@@ -8,7 +8,7 @@ import React from 'react';
 //     NavLink,
 //     Redirect
 // } from 'react-router-dom';
-import Header from './Header';
+import {Header} from './Header';
 // import "./Detalles.css";
 import './css/app.css';
 
