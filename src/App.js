@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 // import './styles/App.css';
 // import {Home, Information, NavBar} from './Home';
-import Home from './Home';
+import {Home} from './Home';
 import Detalles from "./Detalles";
 
 const App = ({ selected }) => {
