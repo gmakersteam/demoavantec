@@ -23,7 +23,7 @@ const Producto = ({ imagen, nombre, precio, oferta }) => {
         </div>
     )
 }
-const Productos = () => {
+export const Productos = () => {
     return (
         <div id='Productos'>
             <h1>Nuestros productos</h1>
@@ -89,5 +89,3 @@ const Productos = () => {
         </div>
     )
 }
-
-export default Productos;
