@@ -56,17 +56,17 @@ const Icons = () => {
 						<ul className="social-icons">
 								<li className="tab">
 										<a target='_blank' href="https://github.com/Mariley20">
-												<i className="fa fa-youtube circle"></i>
+												<i className="fa fa-youtube-play circle"></i>
 										</a>
 								</li>
 								<li className="tab">
 										<a target='_blank' href="http://bit.ly/2nMhQvM">
-												<i className="fa fa-facebook circle"></i>
+												<i className="fa fa-facebook-square circle"></i>
 										</a>
 								</li>
 								<li className="tab">
 										<a target='_blank' href="https://www.linkedin.com/in/marileye/">
-												<i className="fa fa-company circle"></i>
+												<i className="fa fa-building circle"></i>
 										</a>
 								</li>
 						</ul>
