@@ -8,7 +8,7 @@ import {carousel} from './actions';
 
 const HomeC = () => {
     return(
-        <div>
+        <div id="componenteK">
             <div className="container">
                 <div id="myCarousel" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">
