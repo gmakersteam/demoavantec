@@ -18,7 +18,7 @@ const Menu = () => {
 		<Navbar collapseOnSelect>
 		<Navbar.Header>
 			<Navbar.Brand>
-				<a href="#brand">React-Bootstrap</a>
+				<a href="#brand"><img className='mar-logo' src='./imagenes-productos/logo.png' /></a>
 			</Navbar.Brand>
 			<Navbar.Toggle />
 		</Navbar.Header>
@@ -55,17 +55,17 @@ const Icons = () => {
 				<div className='social'>
 						<ul className="social-icons">
 								<li className="tab">
-										<a target='_blank' href="https://github.com/Mariley20">
+										<a target='_blank' href="https://www.youtube.com/user/superbyteperu">
 												<i className="fa fa-youtube-play circle"></i>
 										</a>
 								</li>
 								<li className="tab">
-										<a target='_blank' href="http://bit.ly/2nMhQvM">
+										<a target='_blank' href="https://www.facebook.com/AldazabalFanPage/">
 												<i className="fa fa-facebook-square circle"></i>
 										</a>
 								</li>
 								<li className="tab">
-										<a target='_blank' href="https://www.linkedin.com/in/marileye/">
+										<a target='_blank' href="">
 												<i className="fa fa-building circle"></i>
 										</a>
 								</li>

@@ -58,6 +58,10 @@
   -ms-transform: scale(1.3);
   transform: scale(1.3); }
 
+.mar-logo {
+  width: 140px;
+  height: auto; }
+
 .g-contacto {
   font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
