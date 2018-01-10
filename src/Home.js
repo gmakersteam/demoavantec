@@ -27,14 +27,14 @@ const HomeC = () => {
                     </div>
 
                     <div className="item">
-                        <img className="k-imagen" src="https://raw.githubusercontent.com/gmakersteam/demoavantec/master/public/imagenes-productos/taa.png" alt="Chicago"/>
+                        <img className="k-imagen" src="https://raw.githubusercontent.com/gmakersteam/demoavantec/master/public/imagenes-productos/scooter.png" alt="Chicago"/>
                         <div className="carousel-caption">
                         <button className="k-buttonRefSky">Detalles</button>
                         </div>
                     </div>
                     
                     <div className="item">
-                        <img className="k-imagen" src="https://i.pinimg.com/736x/1e/1c/12/1e1c12894c7311846a207ae16fdf93fc--air-france-pic-nice.jpg" alt="New York"/>
+                        <img className="k-imagen" src="https://raw.githubusercontent.com/gmakersteam/demoavantec/master/public/imagenes-productos/galaxys8.png" alt="New York"/>
                         <div className="carousel-caption">
                         <button className="k-buttonRefRed">Detalles</button>
                         </div>
