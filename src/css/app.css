@@ -58,9 +58,15 @@
   -ms-transform: scale(1.3);
   transform: scale(1.3); }
 
-.mar-logo {
-  width: 140px;
-  height: auto; }
+.navbar-brand {
+  float: none;
+  font-size: 18px;
+  line-height: 20px; }
+
+.navbar-brand img {
+  float: left;
+  height: 60px;
+  padding: 10px 5px; }
 
 .g-contacto {
   font-family: 'Raleway', sans-serif;
