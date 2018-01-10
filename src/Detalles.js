@@ -12,7 +12,7 @@ import {Header} from './Header';
 // import "./Detalles.css";
 import './css/app.css';
 
-export const Productos = () => {
+export const Detalles = () => {
     return (
         <div>
             {/* <Header/> */}
