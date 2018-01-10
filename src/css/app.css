@@ -236,7 +236,7 @@
 
 
 
-.carousel-indicators li {
+#componenteK .carousel-indicators li {
   display: inline-block;
   width: 37px;
   height: 7px;
@@ -249,7 +249,7 @@
   border-radius: 0px;
 }
 
-.carousel-indicators .active {
+#componenteK .carousel-indicators .active {
   width: 37px;
   height: 7px;
   margin: 2px;
