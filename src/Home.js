@@ -20,7 +20,7 @@ const HomeC = () => {
                     <div class="carousel-inner">
 
                     <div class="item active">
-                        <img className="k-imagen" src="https://mosaic-church.org.uk/images/sized/images/uploads/hands-up-1200x500.jpg" alt="Los Angeles"/>
+                        <img className="k-imagen" src="https://raw.githubusercontent.com/gmakersteam/demoavantec/master/public/imagenes-productos/tablet.png" alt="Los Angeles"/>
                         <div class="carousel-caption">
                         <h3>Los Angeles</h3>
                         <p>LA is always so much fun!</p>
