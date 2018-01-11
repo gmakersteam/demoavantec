@@ -13,7 +13,7 @@ import {Detalles} from "./Detalles";
 
 const App = ({ phone, computer, tablets, selected }) => {
     return (
-        <div>
+        <div className='container-fluid'>
             <HashRouter>
                 <Switch>
                     <Route path="/home" render={() => <Home />} />

@@ -269,7 +269,8 @@
 .g-contacto {
   font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
-  background: #18305c;
+  color: #333;
+  background: #eee;
   padding: 0% 5%;
   padding-top: 1%;
   text-align: left; }
@@ -309,5 +310,8 @@
 
 .g-datos-comunicate {
   font-family: 'Raleway', sans-serif; }
+
+.g-mapa {
+  width: 250px; }
 
 /*# sourceMappingURL=app.css.map */

@@ -15,7 +15,7 @@ export const Header = () => {
 
 const Menu = () => {
 	return (
-		<Navbar fixedTop collapseOnSelect>
+		<Navbar fixedTop inverse collapseOnSelect>
 		<Navbar.Header>
 			<Navbar.Brand>
 				<a href="#brand"><img className='mar-logo' src='./imagenes-productos/logo.png' /></a>
