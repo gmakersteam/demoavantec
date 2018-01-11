@@ -54,3 +54,5 @@ export const Detalles = () => {
         </div>
     )
 }
+
+export default Detalles;
