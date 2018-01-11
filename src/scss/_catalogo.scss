@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+.catalogo img{
+    margin-bottom: 12px;
+    vertical-align: middle;
+    height: 190px;
+}
+.product-img{
+    text-align: center;
+    background: #fff;
+}
+.product-card {
+    border: solid 1px #eee;
+    width: 200px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    margin-right: 8px;
+}
+.product-card .product-info {
+    background: #f7f7f7;
+    padding: 8px 8px 12px 8px;
+    height: 84px;
+}
+.product-card .product-info .name {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    color: #333;
+    overflow: hidden;
+    height: 42px;
+}
+.product-card .product-info .original-price {
+    display: inline-block;
+}
+
+ .original-price {
+    font-family: "Helvetica Neue", "Segoe UI", Lucida, Noto, Roboto, Arial, sans-serif;
+    font-size: 12px;
+    color: #aaa;
+    line-height: 20px;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+.product-card .product-info .discount {
+    display: inline-block;
+    margin-left: 10px;
+}
+ .discount {
+    font-family: "Helvetica Neue", "Segoe UI", Lucida, Noto, Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    font-weight: 400;
+}
+.product-card .product-info div:last-of-type {
+    padding-top: 4px;
+}
+ .price-secondary {
+    color: #ea2840;
+}
+.price-secondary {
+    font-family: "Helvetica Neue", "Segoe UI", Lucida, Noto, Roboto, Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+    line-height: 20px;
+    font-weight: 700;
+}
