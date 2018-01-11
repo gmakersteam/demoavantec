@@ -11,7 +11,7 @@ import {
 import {Home} from './Home';
 import {Detalles} from "./Detalles";
 
-const App = ({ selected }) => {
+const App = ({ food, selected }) => {
     return (
         <div>
             <HashRouter>
@@ -26,6 +26,6 @@ const App = ({ selected }) => {
         </div>
     )
 }
-const mapToProps = ({ selected }) => ({ selected });
+const mapToProps = ({ food, selected }) => ({ food, selected });
 
 export default connect(mapToProps)(App);
