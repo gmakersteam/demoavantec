@@ -11,7 +11,7 @@
 .catalogo img{
     margin-bottom: 12px;
     vertical-align: middle;
-    // height: 190px;
+    height: 190px;
 }
 .product-img{
     text-align: center;
@@ -80,8 +80,11 @@
     padding-right: 0px; 
     padding-left: 0px; 
 }
+.hiddenn {
+    display: block;
+}
     @media only screen and (max-width: 600px) {
-        .hidden{
+        .hiddenn{
             display: none;
         }
     }

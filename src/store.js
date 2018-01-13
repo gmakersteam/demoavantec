@@ -22,13 +22,13 @@ let phone = [{
         name: "Huawei P10 Lite 32GB 3GB RAM Libre De Fabrica – Negro",
         price: 4,
         img: "img/celular/HuaweiP10Negro.jpg",
-        class:'hidden'
+        class:'hiddenn'
     },
     {
         name: "Samsung Galaxy S7 Edge G935F LTE 32GB Negro",
         price: '1,865.00',
         img: "img/celular/SS7Negro.jpg",
-        class:'hidden'
+        class:'hiddenn'
     }];
 const computer = [{
         name: "Laptop Asus X556UA-XX606D Intel Core I7-7500U 2.7GHz 4Gb 1TB 15.6''HD DVD-RW FreeDos",
@@ -52,12 +52,12 @@ const computer = [{
         name: "Lenovo Legion Y520-15IKBN Intel Core I5-7300HQ 2.5 GHz",
         price: 0.00,
         img: "img/computer/LenovoLegion.jpg",
-        class:'hidden'
+        class:'hiddenn'
     },{
         name : "LG - Monitor IPS 29' Gamer Gaming Multitarea UltraWide 29 UM69G - B 2560 x1080 - Negro ",
         price: 0.00,
         img: "img/computer/LGMonitorIPS29Negro.jpg",
-        class:'hidden'
+        class:'hiddenn'
     }]
 
 const tablets = [{
@@ -82,13 +82,13 @@ const tablets = [{
       name:"Amazon - All New Kindle Fire 7 Tablet 8GB WIFI IPS Alexa - Negro",
       price: 0,
       img:"img/tablets/KindleFire7TabletNegro.jpg",
-      class:'hidden'
+      class:'hiddenn'
   },
   {
       name: "Tablet Disney Cars De 7¨ 3G Dual Sim Quad Core 1.3Ghz",
       price: 0,
       img:"img/tablets/TabletDisneyCars.jpg",
-      class:'hidden'
+      class:'hiddenn'
   }];
 const initialState = {
     phone: phone,
