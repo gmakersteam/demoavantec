@@ -3,7 +3,8 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif; }
 
 .social {
   position: fixed;
@@ -270,99 +271,10 @@
 .k-precio {
   text-align: center; }
 
-.g-contacto {
-  font-family: 'Raleway', sans-serif;
-  box-sizing: border-box;
-  color: #333;
-  background: #eee;
-  padding: 0% 5%;
-  padding-top: 1%;
-  text-align: left; }
+.contacto {
+  color: #333; }
 
-.g-h3-contacto {
-  color: #FFFFFF;
-  text-align: center; }
-
-.g-visitanos, .g-comunicate, .g-buscanos, .g-suscribete {
-  margin-top: 1%;
-  padding: 2%; }
-
-.g-facebook {
-  color: blue; }
-
-.g-youtube {
-  color: red; }
-
-.g-facebook, .g-youtube {
-  padding: 0% 2%; }
-
-.g-suscribete {
-  text-align: center; }
-
-.g-btn-suscribete, .g-input-suscribete {
-  width: 100%;
-  margin-bottom: 2%; }
-
-.fa-thumb-tack, .fa-user, .fa-search {
-  color: white; }
-
-.g-titulo-secciones {
-  color: #FFFFFF; }
-
-.fa-phone-square, .fa-envelope, .fa-skype, .g-direccion, .g-datos-comunicate {
-  color: #FFFFFF; }
-
-.g-datos-comunicate {
-  font-family: 'Raleway', sans-serif; }
-
-.g-mapa {
-  width: 250px; }
+.medios_pago img {
+  width: 40px; }
 
 /*# sourceMappingURL=app.css.map */
-
-
-
-
-#componenteK .carousel-indicators li {
-  display: inline-block;
-  width: 37px;
-  height: 7px;
-  margin: 2px;
-  text-indent: -999px;
-  cursor: pointer;
-  background-color: #0009;
-  background-color: rgba(0,0,0,0);
-  border: 1px solid #455a9d;
-  border-radius: 0px;
-}
-
-#componenteK .carousel-indicators .active {
-  width: 37px;
-  height: 7px;
-  margin: 2px;
-  background-color: #32437e;
-}
-
-.k-buttonRef {
-  padding: 2vh 5vw;
-  background: #32437e;
-  color: white;
-  border-radius: 1px;
-  border: 0px;
-}
-
-.k-buttonRefSky {
-  padding: 2vh 5vw;
-  background: #2eb2ff;
-  color: white;
-  border-radius: 1px;
-  border: 0px;
-}
-
-.k-buttonRefRed {
-  padding: 2vh 5vw;
-  background: #c53736;
-  color: white;
-  border-radius: 1px;
-  border: 0px;
-}
