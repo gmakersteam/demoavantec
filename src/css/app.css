@@ -4,7 +4,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Titillium Web', sans-serif; }
+  font-family: 'Titillium Web', sans-serif;
+  outline: 1px solid red; }
+
+section {
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px; }
 
 .social {
   position: fixed;
@@ -72,6 +81,9 @@
   height: 60px;
   padding: 10px 5px; }
 
+@media only screen and (max-width: 600px) {
+  .navbar-brand img {
+    width: 209px; } }
 .catalogo {
   margin: 10px 0;
   display: flex;
@@ -146,6 +158,9 @@
   padding-right: 0px;
   padding-left: 0px; }
 
+@media only screen and (max-width: 600px) {
+  .hidden {
+    display: none; } }
 .kdetails {
   margin-top: 15vh; }
 
@@ -315,5 +330,14 @@
   border-right: 1px dotted #666666;
   border-bottom: 0px dotted #666666;
   border-left: 0px dotted #666666; }
+
+#contact .row {
+  margin-right: 0px;
+  margin-left: 0px; }
+
+@media only screen and (max-width: 600px) {
+  .contacto p:last-child {
+    padding-bottom: 0px;
+    transform: rotate(0deg); } }
 
 /*# sourceMappingURL=app.css.map */

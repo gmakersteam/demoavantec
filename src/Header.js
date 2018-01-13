@@ -8,7 +8,7 @@ export const Header = () => {
 			<header>
 				<Menu />
 				{/* <Categorias /> */}
-				<Icons />
+				{/* <Icons /> */}
 			</header>
     )
 }

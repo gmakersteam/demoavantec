@@ -17,7 +17,7 @@ const Producto = ({product}) => {
     // console.log('compu', compu)
     let computadoras = product.map((item, index) => {
         return (
-            <div key={index} className='product-card col-sm-3 centered'>
+            <div key={index} className='product-card col-sm-3 centered' className={item.class}>
                 <div className='product-img'>
                     <img className='img-responsive' src={item.img} />
                 </div>

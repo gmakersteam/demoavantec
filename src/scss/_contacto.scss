@@ -47,3 +47,14 @@
     border-bottom:0px dotted #666666;
     border-left:0px dotted #666666;
 }
+#contact .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+@media only screen and (max-width: 600px) {
+    .contacto p:last-child {
+        // font-weight: 500;
+        padding-bottom: 0px;
+        transform: rotate(0deg);
+    }
+}

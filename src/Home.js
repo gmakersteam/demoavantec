@@ -8,6 +8,7 @@ import {carousel} from './actions';
 
 const HomeC = () => {
     return(
+        <section>
         <div id="componenteK">
             <div className="container">
                 <div id="myCarousel" className="carousel slide" data-ride="carousel">
@@ -54,6 +55,7 @@ const HomeC = () => {
                 </div>
 
         </div>
+        </section>
     );
 }
 
