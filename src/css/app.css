@@ -10,7 +10,7 @@
   position: fixed;
   z-index: 99999;
   right: 0;
-  bottom: 14%; }
+  bottom: 2%; }
 
 .social-icons {
   list-style-type: none;
@@ -275,6 +275,12 @@
   color: #333; }
 
 .medios_pago img {
-  width: 40px; }
+  width: 60px; }
+
+.medios_pago li:first-child img {
+  width: 85px; }
+
+.contacto li {
+  list-style: none; }
 
 /*# sourceMappingURL=app.css.map */

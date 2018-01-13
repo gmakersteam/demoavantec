@@ -2,5 +2,11 @@
     color: #333; //666
 }
 .medios_pago img{
-    width: 40px;
+    width: 60px;
+}
+.medios_pago li:first-child img{
+    width: 85px;
+}
+.contacto li{
+    list-style: none;
 }
