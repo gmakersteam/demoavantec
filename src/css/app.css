@@ -272,7 +272,14 @@
   text-align: center; }
 
 .contacto {
-  color: #333; }
+  background: #eee;
+  color: #333;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  border-top: 0px solid #666666;
+  border-right: 0px dotted #666666;
+  border-bottom: 15px solid #000000;
+  border-left: 0px dotted #666666; }
 
 .medios_pago img {
   width: 60px; }
@@ -281,6 +288,32 @@
   width: 85px; }
 
 .contacto li {
-  list-style: none; }
+  list-style: none;
+  padding-left: 10px;
+  line-height: 2; }
+
+.contacto p {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold; }
+
+.contacto p:last-child {
+  padding-bottom: 35px;
+  transform: rotate(270deg); }
+
+.contacto ul {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.contacto .medios_pago {
+  display: inline-flex;
+  display: flex;
+  justify-content: center; }
+
+.columns {
+  border-top: 0px solid #666666;
+  border-right: 1px dotted #666666;
+  border-bottom: 0px dotted #666666;
+  border-left: 0px dotted #666666; }
 
 /*# sourceMappingURL=app.css.map */
