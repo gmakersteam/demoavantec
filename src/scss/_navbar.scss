@@ -1,4 +1,11 @@
-.mar-logo{
-    width: 140px;
-    height: auto;
+.navbar-brand {
+    float: none;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-brand img {
+    float: left;
+    width: 260px;
+    height: 60px;
+    padding: 10px 5px;
 }

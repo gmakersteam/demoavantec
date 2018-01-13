@@ -11,9 +11,9 @@ import {
 import {Home} from './Home';
 import {Detalles} from "./Detalles";
 
-const App = ({ selected }) => {
+const App = ({ phone, computer, tablets, selected }) => {
     return (
-        <div>
+        <div className='container-fluid'>
             <HashRouter>
                 <Switch>
                     <Route path="/home" render={() => <Home />} />
@@ -26,6 +26,6 @@ const App = ({ selected }) => {
         </div>
     )
 }
-const mapToProps = ({ selected }) => ({ selected });
+const mapToProps = ({ phone, computer, tablets, selected }) => ({ phone, computer, tablets, selected });
 
 export default connect(mapToProps)(App);

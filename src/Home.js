@@ -3,7 +3,7 @@ import './css/app.css';
 import Contactame from './contacto'
 // import {BrowserRouter, Route, Switch, NavLink, Redirect} from 'react-router-dom'
 import {Header} from './Header';
-import {Productos} from "./Productos";
+import Productos from "./Productos";
 import {carousel} from './actions';
 
 const HomeC = () => {
