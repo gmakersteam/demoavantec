@@ -4,8 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Titillium Web', sans-serif;
-  outline: 1px solid red; }
+  font-family: 'Titillium Web', sans-serif; }
 
 section {
   padding-right: 15px;
@@ -158,8 +157,11 @@ section {
   padding-right: 0px;
   padding-left: 0px; }
 
+.hiddenn {
+  display: block; }
+
 @media only screen and (max-width: 600px) {
-  .hidden {
+  .hiddenn {
     display: none; } }
 .kdetails {
   margin-top: 15vh; }
