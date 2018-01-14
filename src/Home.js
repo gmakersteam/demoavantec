@@ -8,9 +8,8 @@ import {carousel} from './actions';
 
 const HomeC = () => {
     return(
-        <section>
         <div id="componenteK">
-            <div className="container">
+            <div className="">
                 <div id="myCarousel" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
@@ -21,21 +20,21 @@ const HomeC = () => {
                     <div className="carousel-inner">
 
                     <div className="item active">
-                        <img className="k-imagen" src="https://raw.githubusercontent.com/gmakersteam/demoavantec/master/public/imagenes-productos/tablet.png" alt="Los Angeles"/>
+                        <img className="k-imagen" src="http://ligia-fiedler.ro/theblondefashionista/images/1400x500/paris_02_1400x500.jpg" alt="Los Angeles"/>
                         <div className="carousel-caption">
                         <button className="k-buttonRef">Detalles</button>
                         </div>
                     </div>
 
                     <div className="item">
-                        <img className="k-imagen" src="https://raw.githubusercontent.com/gmakersteam/demoavantec/master/public/imagenes-productos/scooter.png" alt="Chicago"/>
+                        <img className="k-imagen" src="http://ligia-fiedler.ro/theblondefashionista/images/1400x500/paris_02_1400x500.jpg" alt="Chicago"/>
                         <div className="carousel-caption">
                         <button className="k-buttonRefSky">Detalles</button>
                         </div>
                     </div>
                     
                     <div className="item">
-                        <img className="k-imagen" src="https://raw.githubusercontent.com/gmakersteam/demoavantec/master/public/imagenes-productos/galaxys8.png" alt="New York"/>
+                        <img className="k-imagen" src="http://ligia-fiedler.ro/theblondefashionista/images/1400x500/paris_02_1400x500.jpg" alt="New York"/>
                         <div className="carousel-caption">
                         <button className="k-buttonRefRed">Detalles</button>
                         </div>
@@ -52,10 +51,27 @@ const HomeC = () => {
                     <span className="sr-only">Next</span>
                     </a>
                 </div>
+
                 </div>
 
         </div>
-        </section>
+    );
+}
+
+const Ofertas = () => {
+    return(
+        <section>
+        <div className="col-md-4 col-sm-4 col-xs-4">
+            <img className="img-ofertas" src="https://raw.githubusercontent.com/gmakersteam/demoavantec/master/public/imagenes-productos/tablet.png"/>
+        </div>
+        <div className="col-md-4 col-sm-4 col-xs-4">
+            <img className="img-ofertas" src="https://raw.githubusercontent.com/gmakersteam/demoavantec/master/public/imagenes-productos/scooter.png"/>
+        </div>
+        <div className="col-md-4 col-sm-4 col-xs-4">
+            <img className="img-ofertas" src="https://raw.githubusercontent.com/gmakersteam/demoavantec/master/public/imagenes-productos/galaxys8.png"/>
+        </div>
+        
+    </section>
     );
 }
 
