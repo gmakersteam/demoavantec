@@ -387,3 +387,11 @@ section {
   box-sizing: border-box;
 
 }
+
+#componenteK:hover  {
+
+  opacity: 0.3;
+}
+
+#componenteK:hover .middle {
+  opacity: 1; }
