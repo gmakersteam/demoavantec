@@ -31,7 +31,7 @@
     margin-left: 10px;
     margin-right: 10px;
 }
-    .contacto .medios_pago {
+.contacto .medios_pago {
     display: inline-flex;
     display: flex;
     justify-content: center;
@@ -46,6 +46,9 @@
 #contact{
     background: #eee;
     border-bottom:15px solid #000000;
+}
+.contacto .row-linea{
+    border-top: 1px dotted #666666;
 }
 @media only screen and (max-width: 600px) {
     .contacto p:last-child {
