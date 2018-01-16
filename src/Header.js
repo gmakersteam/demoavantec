@@ -99,6 +99,9 @@ const Categorias = () => {
 										<NavItem eventKey={2} href="#">
 												Computadoras
 										</NavItem>
+										<NavItem eventKey={3} href="#">
+											Equipos Biometricos
+										</NavItem>
 										{/* <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
 					<MenuItem eventKey={3.1}>Action</MenuItem>
 					<MenuItem eventKey={3.2}>Another action</MenuItem>

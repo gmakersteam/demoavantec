@@ -20,9 +20,9 @@ const Contactme = () => {
                     </ul>
                 </Col>
                 <Col xs={12} md={6}>
-                    <p>Medios de Pago</p>
+                    <p>Tambien puedes encontrarnos</p>
                     <ul className='medios_pago'>
-                        <li><img src='./img/contact/mercadoLibre.png' /></li>
+                        <li><a target='_blank' href='http://www.mercadolibre.com.pe/‎' ><img src='./img/contact/mercadoLibre.png' /></a></li>
                         <li><a target='_blank' href='http://www.olx.com.pe/'><img src='./img/contact/olx.png' /></a></li>
                     </ul>
                 </Col>
@@ -34,9 +34,9 @@ const Contactme = () => {
                         <li>Arequipa-cercado</li>
                         <li>Octavio Muños Najar 223 Tda. 109 - Galerías CompuPlaza</li>
                         <li>(5 cuadras de la Plaza de Armas)</li>
-                        <li ><i className="fa fa-phone-square " aria-hidden="true"></i> 977371550 - 949510000</li>
+                        <li ><i className="fa fa-whatsapp " aria-hidden="true"></i> 977371550 - 949510000</li>
                         <li ><i className="fa fa-envelope " aria-hidden="true"></i> ventas@avantecperu.com</li>
-                        <li>Skype: avantecperu@msn.com</li>
+                        <li><i className="fa fa-skype" aria-hidden="true"></i> avantecperu@msn.com</li>
                         {/* <iframe className="g-mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.4644814232556!2d-71.53253547631482!3d-16.40122009641886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a55c8ac1627%3A0x541109278d97b8a4!2sNova+Center%2C+Octavio+Mu%C3%B1oz+Najar%2C+Arequipa+Metropolitana!5e0!3m2!1ses!2spe!4v1512756110197" width="100%" height="225" frameBorder="0" allowFullScreen></iframe> */}
                     </ul>
                 </Col>
