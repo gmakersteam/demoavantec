@@ -51,7 +51,11 @@ const Productos = ({phone, computer, tablets, selected}) => {
         </section >
     )
 }
-
+// const Product2 = () => {
+//     return (
+        
+//     )
+// }
 const mapToProps = ({phone, computer, tablets, selected}) => ({phone, computer, tablets, selected});
 
 export default connect(mapToProps)(Productos);
