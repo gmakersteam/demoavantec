@@ -136,12 +136,12 @@ const Icons = () => {
 										</a>
 								</li>
 								<li className="tab">
-										<a target='_blank' href="https://www.facebook.com/AldazabalFanPage/">
+										<a target='_blank' href="https://www.facebook.com/supertecnologias/">
 												<i className="fa fa-facebook-square circle"></i>
 										</a>
 								</li>
 								<li className="tab">
-										<a target='_blank' href="">
+										<a target='_blank' href="https://avantecperu.mitiendanube.com/">
 												<i className="fa fa-building circle"></i>
 										</a>
 								</li>

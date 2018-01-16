@@ -20,21 +20,21 @@ const HomeC = () => {
                     <div className="carousel-inner">
 
                     <div className="item active">
-                        <img className="k-imagen" src="http://ligia-fiedler.ro/theblondefashionista/images/1400x500/paris_02_1400x500.jpg" alt="Los Angeles"/>
+                        <img className="k-imagen" src="./img/home/1.jpeg" alt="Los Angeles"/>
                         <div className="carousel-caption">
                         <button className="k-buttonRef">Detalles</button>
                         </div>
                     </div>
 
                     <div className="item">
-                        <img className="k-imagen" src="http://ligia-fiedler.ro/theblondefashionista/images/1400x500/paris_02_1400x500.jpg" alt="Chicago"/>
+                        <img className="k-imagen" src="http://www.clasesdeperiodismo.com/wp-content/uploads/2017/01/drone-va.gif" alt="Chicago"/>
                         <div className="carousel-caption">
                         <button className="k-buttonRefSky">Detalles</button>
                         </div>
                     </div>
                     
                     <div className="item">
-                        <img className="k-imagen" src="http://ligia-fiedler.ro/theblondefashionista/images/1400x500/paris_02_1400x500.jpg" alt="New York"/>
+                        <img className="k-imagen" src="img/home/2.jpg" alt="New York"/>
                         <div className="carousel-caption">
                         <button className="k-buttonRefRed">Detalles</button>
                         </div>

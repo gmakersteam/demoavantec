@@ -81,6 +81,13 @@ section {
 #componenteK .middle {
   opacity: 1; }
 
+.k-imagen {
+  width: 100%;
+  height: 80vh; }
+
+.carousel-inner > .item > img {
+  height: 80vh; }
+
 .navbar-brand {
   float: none;
   font-size: 18px;
