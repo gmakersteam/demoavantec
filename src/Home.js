@@ -39,7 +39,9 @@ const HomeC = () => {
                         <button className="k-buttonRefRed">Detalles</button>
                         </div>
                     </div>
-                
+                    <div class="middle">
+                        <div class="text">Construyendo</div>
+                    </div>
                     </div>
 
                     <a className="left carousel-control" href="#myCarousel" data-slide="prev">
