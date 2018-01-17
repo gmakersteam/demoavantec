@@ -15,6 +15,7 @@ const HomeC = () => {
                     <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
                     </ol>
 
                     <div className="carousel-inner">
@@ -27,7 +28,13 @@ const HomeC = () => {
                     </div>
 
                     <div className="item">
-                        <img className="k-imagen" src="http://www.clasesdeperiodismo.com/wp-content/uploads/2017/01/drone-va.gif" alt="Chicago"/>
+                        <img className="k-imagen" src="./img/home/5.jpg" alt="Los Angeles"/>
+                        <div className="carousel-caption">
+                        <button className="k-buttonRef">Detalles</button>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <img className="k-imagen" src="img/home/3.jpg" alt="Chicago"/>
                         <div className="carousel-caption">
                         <button className="k-buttonRefSky">Detalles</button>
                         </div>
