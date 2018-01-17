@@ -23,86 +23,44 @@ const Menu = () => {
 			<Navbar.Toggle />
 		</Navbar.Header>
 		<Navbar.Collapse>
-			{/* <Nav>
-				<NavItem eventKey={1} href="#">
-					Gadgets
-				</NavItem>
-				<NavItem eventKey={2} href="#">
-					Computadoras
-				</NavItem>
-				<NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-					<MenuItem eventKey={3.1}>Action</MenuItem>
-					<MenuItem eventKey={3.2}>Another action</MenuItem>
-					<MenuItem eventKey={3.3}>Something else here</MenuItem>
-					<MenuItem divider />
-					<MenuItem eventKey={3.3}>Separated link</MenuItem>
-				</NavDropdown>
-			</Nav> */}
 			<Nav pullRight>
-			<NavItem eventKey={1} href="#">
-					Gadgets
+				<NavItem eventKey={1} href="#">
+						Gadgets
 				</NavItem>
 				<NavItem eventKey={2} href="#">
-					Computadoras
+						Computadoras
 				</NavItem>
-				{/* <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-					<MenuItem eventKey={3.1}>Action</MenuItem>
-					<MenuItem eventKey={3.2}>Another action</MenuItem>
-					<MenuItem eventKey={3.3}>Something else here</MenuItem>
-					<MenuItem divider />
-					<MenuItem eventKey={3.3}>Separated link</MenuItem>
-				</NavDropdown> */}
+				<NavItem eventKey={3} href="#">
+					Equipos_Biometricos
+				</NavItem>
 				<NavItem eventKey={4} href="#">
-					Laptops
+												Laptops
 				</NavItem>
 				<NavItem eventKey={5} href="#">
-					Tablets
+						Tablets
 				</NavItem>
 				<NavItem eventKey={6} href="#">
-					Celulares
+						Celulares
 				</NavItem>
 				<NavItem eventKey={7} href="#">
-					Drones
-				</NavItem>
-				<NavItem eventKey={8} href="#">
-					Accesorios
+						Drones
 				</NavItem>
 			</Nav>
 		</Navbar.Collapse>
 	</Navbar>
 	)
 }
-const Categorias = () => {
-		return (
-				<Navbar fixedBottom collapseOnSelect>
-						<Navbar.Collapse>
-								<Nav pullRight>
-										<NavItem eventKey={1} href="#">
-												Gadgets
-										</NavItem>
-										<NavItem eventKey={2} href="#">
-												Computadoras
-										</NavItem>
-										<NavItem eventKey={3} href="#">
-											Equipos_Biometricos
-										</NavItem>
-										<NavItem eventKey={4} href="#">
-												Laptops
-										</NavItem>
-										<NavItem eventKey={5} href="#">
-												Tablets
-										</NavItem>
-										<NavItem eventKey={6} href="#">
-												Celulares
-										</NavItem>
-										<NavItem eventKey={7} href="#">
-												Drones
-										</NavItem>
-								</Nav>
-						</Navbar.Collapse>
-				</Navbar>
-		)
-}
+// const Categorias = () => {
+// 		return (
+// 				<Navbar fixedBottom collapseOnSelect>
+// 						<Navbar.Collapse>
+// 								<Nav pullRight>
+										
+// 								</Nav>
+// 						</Navbar.Collapse>
+// 				</Navbar>
+// 		)
+// }
 const Icons = () => {
 		return (
 				<div className='social'>
