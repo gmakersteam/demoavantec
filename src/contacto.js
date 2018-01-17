@@ -12,19 +12,24 @@ const Contactme = () => {
     return (
         <section id='contact'>
             <Row className='text-center contacto'>
-                <Col xs={12} md={6} >
+                <Col xs={12} md={4} >
                     <p>Medios de Pago</p>
                     <ul className='medios_pago' >
                         <li><img src='./img/contact/Paypal.svg' /></li>
                         <li><img src='./img/contact/Visa.svg' /></li>
                     </ul>
                 </Col>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={4}>
                     <p>Tambien puedes encontrarnos</p>
                     <ul className='medios_pago'>
                         <li><a target='_blank' href='http://www.mercadolibre.com.pe/‎' ><img src='./img/contact/mercadoLibre.png' /></a></li>
                         <li><a target='_blank' href='http://www.olx.com.pe/'><img src='./img/contact/olx.png' /></a></li>
                     </ul>
+                </Col>
+                <Col xs={12} md={4}>
+                    <div style={{textAlign: "center" }}>
+                        <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5s8wq4wsqcz&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
+                    </div>
                 </Col>
             </Row>
             <Row  className='row-linea text-center contacto'>

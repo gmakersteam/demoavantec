@@ -21,8 +21,8 @@ const Producto = ({product}) => {
             <div key={index} className={clase}>
                 <div className='product-img'>
                     <img className='img-responsive' src={item.img} />
-                    <div class="middle">
-                        <div class="text">Construyendo</div>
+                    <div className="middle">
+                        <div className="text">Construyendo</div>
                     </div>
                 </div>
                 <div className="product-info ">
