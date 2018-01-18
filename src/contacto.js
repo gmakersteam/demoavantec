@@ -26,11 +26,15 @@ const Contactme = () => {
                         <li><a target='_blank' href='http://www.olx.com.pe/'><img src='./img/contact/olx.png' /></a></li>
                     </ul>
                 </Col>
-                <Col xs={12} md={4}>
-                    <div style={{textAlign: "center" }}>
-                        <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5s8wq4wsqcz&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
-                        {/* <iframe src="//rf.revolvermaps.com/0/0/6.js?i=5s8wq4wsqcz&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></iframe> */}
-                    </div>
+                <Col xs={12} md={4}>    
+                            <div id="revolvermap" align="center"  className="wcustomhtml">
+                                <div className="ab">
+                                    <div className="abc">
+                                        <iframe className="adc" scrolling="no" frameBorder="0" allowtransparency="true" width="50%" height="50%" src="//rf.revolvermaps.com/w/6/a/a2.php?i=5dv1qe7od2v&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-400&amp;ly=400&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80"></iframe>
+                                    </div>
+                                </div>
+                                <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5dv1qe7od2v&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-400&amp;ly=400&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
+                            </div>
                 </Col>
             </Row>
             <Row  className='row-linea text-center contacto'>
