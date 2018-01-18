@@ -4,6 +4,7 @@ import {connect} from "redux-zero/react";
 // import Utils from './Utils.js';
 import { NavLink } from 'react-router-dom'
 import {Carousel} from 'react-bootstrap';
+import Slider from 'react-slick';
 import './css/app.css';
 // import { colImg, rowImg } from "./actions";
 // import img_prueba from './probbb.png';
@@ -47,15 +48,54 @@ const Productos = ({phone, computer, tablets, selected}) => {
 		<Producto product={phone} />
         <Producto product={computer} />
         <Producto product={tablets} />
+        <Product2 />
         {/* <Producto food={food} /> */}
         </section >
     )
 }
-// const Product2 = () => {
-//     return (
-        
-//     )
-// }
+const Product2 = () => {
+    const settings = {
+    //   dots: false,
+      autoplay:true,
+      infinite: true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplaySpeed: 2000,
+      initialSlide: 0,
+      responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true
+        //   dots: true
+        }
+      }, {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      }, {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }]
+    };
+    return (
+        <Slider {...settings}>
+            <div><h3>1</h3></div>
+            <div><h3>2</h3></div>
+            <div><h3>3</h3></div>
+            <div><h3>4</h3></div>
+            <div><h3>5</h3></div>
+            <div><h3>6</h3></div>
+      </Slider>
+    )
+}
 const mapToProps = ({phone, computer, tablets, selected}) => ({phone, computer, tablets, selected});
 
 export default connect(mapToProps)(Productos);
