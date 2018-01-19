@@ -5,6 +5,7 @@ import Contactame from './contacto'
 import {Header} from './Header';
 import Productos from "./Productos";
 import {carousel} from './actions';
+import Rproduct from './rproduct';
 
 const HomeC = () => {
     return(
@@ -85,6 +86,7 @@ export const Home = () => {
             <HomeC/>
             <Productos/>
             <Contactame />
+            <Rproduct/>
         </div>
     )
 }

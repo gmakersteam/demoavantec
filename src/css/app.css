@@ -382,5 +382,8 @@ section {
   .columns {
     border-right: 0px dotted #666666;
     border-bottom: 1px dotted #666666; } }
+.form-horizontal .form-group {
+  margin-right: 0px;
+  margin-left: 0px; }
 
 /*# sourceMappingURL=app.css.map */
