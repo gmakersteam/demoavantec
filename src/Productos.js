@@ -48,12 +48,13 @@ const Productos = ({phone, computer, tablets, selected}) => {
 		<Producto product={phone} />
         <Producto product={computer} />
         <Producto product={tablets} />
-        <Product2 />
+        <Product2 product={tablets}/>
         {/* <Producto food={food} /> */}
         </section >
     )
 }
-const Product2 = () => {
+const Product2 = ({product}) => {
+    
     const settings = {
     //   dots: false,
       autoplay:true,
@@ -86,14 +87,24 @@ const Product2 = () => {
       }]
     };
     return (
+        <div className='ma-product'>
         <Slider {...settings}>
-            <div><h3>1</h3></div>
-            <div><h3>2</h3></div>
-            <div><h3>3</h3></div>
-            <div><h3>4</h3></div>
-            <div><h3>5</h3></div>
-            <div><h3>6</h3></div>
+            {
+                product.map((item, index) =>{
+                    return (
+                        <div key={index}>
+                            <div>
+                                <img src={item.img}/>
+                            </div>
+                            <div>
+                                {item.name}
+                            </div>
+                        </div>
+                    )
+                })
+            }
       </Slider>
+      </div>
     )
 }
 const mapToProps = ({phone, computer, tablets, selected}) => ({phone, computer, tablets, selected});
