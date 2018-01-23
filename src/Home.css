@@ -1,0 +1,89 @@
+*{
+    /*outline: 1px solid red;*/
+}
+.carousel-inner>.item>img{
+    height: 65vh !important;
+}
+
+.content-steps-home {
+    background: #f6f6f8;
+    padding: 10px 0;
+    margin-top: -5px;
+}
+
+.step-home {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-right: 1px solid #dedfe3;
+}
+
+.first-icon-step-home {
+    background-position: 0 0;
+}
+.sprite-steps-home {
+    background: url(https://juntoz.com/Content/images/home/iconos_home3.png) no-repeat;
+    width: 58px;
+    height: 50px;
+    display: inline-table;
+    margin-bottom: -10px;
+}
+
+.title-step-home {
+    display: inline-block;
+    padding-top: 9px;
+    padding-left: 9px;
+    line-height: 1.2;
+    cursor: help;
+}
+
+.two-icon-step-home {
+    background-position: -55px -4px;
+}
+
+.three-icon-step-home {
+    background-position: -115px -3px;
+}
+
+.fourth-icon-step-home {
+    background-position: -174px -4px;
+}
+
+.title-general b:before {
+    right: 100%;
+}
+
+.title-general b:after {
+    left: 100%;
+}
+
+.title-general b:after, .title-general b:before {
+    content: '';
+    display: block;
+    width: 1000px;
+    position: absolute;
+    top: .5em;
+    border-top: 1px solid #d8d9dd;
+}
+
+.title-general b {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    position: relative;
+    padding: 0 50px;
+    color: grey;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+
+
+.title-general {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
